@@ -14,11 +14,11 @@
     
   }
 
-  .hs img {
+.hs img {
     
     width: 40px;
     height: auto;
-    transition: all 100ms ease;
+    transition: all 200ms ease;
 }
 
 .hs:hover img {

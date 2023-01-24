@@ -1,9 +1,9 @@
 import React from 'react'
 import './HeaderSocials.css'
-import GIT from '../../assets/icons8-github-50.png'
-import Linked from '../../assets/icons8-linkedin-50.png'
-import Twitter from '../../assets/icons8-twitter-50.png'
-import Insta from '../../assets/icons8-instagram-50.png'
+import GIT from '../../assets/icons8-github-51.png'
+import Linked from '../../assets/icons8-linkedin-51.png'
+import Twitter from '../../assets/icons8-twitter-511.png'
+import Insta from '../../assets/icons8-instagram-51.png'
 
 const HeaderSocials = () => {
   return (
