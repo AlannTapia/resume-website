@@ -2,13 +2,16 @@ import React from 'react'
 
 import About from './components/about/About.jsx'
 import Contact from './components/contact/Contact.jsx'
-import Experience from './components/experience/Experience'
+
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header.jsx'
 import Nav from './components/nav/Nav.jsx'
 import Portfolio from './components/portfolio/Portfolio'
-import Services from './components/services/Services'
+import Blog from './components/blog/Blog'
+/*
 import Testimonials from './components/testimonials/Testimonials'
+import Experience from './components/experience/Experience'
+*/
 
 const App = () => {
   return (
@@ -16,14 +19,17 @@ const App = () => {
     <Header />
     <Nav />
     <About />
-    <Experience />
-    <Services />
     <Portfolio />
-    <Testimonials />
+    <Blog />
     <Contact />
     <Footer />
     <Footer/>
     </>
+    /*
+    <Experience />
+    <Services />
+    <Testimonials />
+    */
   )
 }
 
