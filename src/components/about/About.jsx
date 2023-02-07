@@ -21,19 +21,19 @@ const About = () => {
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <img className='icon' src={MEDAL_ICON} alt='medal'></img>
+              <img className='icon_about' src={MEDAL_ICON} alt='medal'></img>
               <h5> Experience</h5>
               <small>3+ Years Working</small>
             </article>
 
             <article className='about__card'>
-              <img className='icon' src={USER_ICON} alt='medal'></img>
+              <img className='icon_about' src={USER_ICON} alt='medal'></img>
               <h5> Clients</h5>
               <small>1+ Worldwide</small>
             </article>
 
             <article className='about__card'>
-              <img className='icon' src={PROJECTS_ICON} alt='medal'></img>
+              <img className='icon_about' src={PROJECTS_ICON} alt='medal'></img>
               <h5> Projects</h5>
               <small>10+ Completed</small>
             </article>
