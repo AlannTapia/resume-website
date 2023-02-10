@@ -1,10 +1,13 @@
 .icon__contacts {
     width: 15px;
     height: auto;
-    margin-bottom: .5rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    filter: brightness(1000%);
 }
 
 .container.contact__container {
+    padding-top: 5rem;
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -51,6 +54,32 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+
+}
+
+.about__me_contact {
+    width: 75%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.about__me_contact-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-5deg);
+    transition: var(--transition);
+}
+
+.about__me_contact-image:hover {
+    transform: rotate(0deg);
 }
 
 @media screen and (max-width: 1024px){
@@ -59,11 +88,21 @@ input, textarea {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .about__me_contact {
+        display: none;
+    }
+    
 }
     
 @media screen and (max-width: 600px){
     
     .container.contact__container {
         width: var(--container-width-sm);
+        padding-top: .5rem;
+    }
+
+    .about__me_contact {
+        display: none;
     }
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/studbud-img.jpg'
+import IMG2 from '../../assets/tree_detection_img.jpg'
+import IMG3 from '../../assets/android_app-img.jpg'
+import IMG4 from '../../assets/hand-eye-img.jpg'
+import IMG5 from '../../assets/react-website-img.jpg'
+import IMG6 from '../../assets/current.jpg'
 
 const Portfolio = () => {
   return (
@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
               <img src={IMG1} alt='img1'></img>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>"Stud Bud" Hackathon Web Application</h3>
           <div className='portfolio__item-cta'>
             <a href='https:github.com' className='btn'>Github</a>
             <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
@@ -28,7 +28,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
               <img src={IMG2} alt='img1'></img>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Tree Detection Web Application</h3>
           <div className='portfolio__item-cta'>
             <a href='https:github.com' className='btn'>Github</a>
             <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
@@ -37,7 +37,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
               <img src={IMG3} alt='img1'></img>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Android Tree Database Application</h3>
           <div className='portfolio__item-cta'>
             <a href='https:github.com' className='btn'>Github</a>
             <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
               <img src={IMG4} alt='img1'></img>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Robotic Hand and Eye Mechanism</h3>
           <div className='portfolio__item-cta'>
             <a href='https:github.com' className='btn'>Github</a>
             <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
@@ -55,7 +55,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
               <img src={IMG5} alt='img1'></img>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>React Website Portfolio</h3>
           <div className='portfolio__item-cta'>
             <a href='https:github.com' className='btn'>Github</a>
             <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
@@ -64,7 +64,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
               <img src={IMG6} alt='img1'></img>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Currently: React Inventory Website</h3>
           <div className='portfolio__item-cta'>
             <a href='https:github.com' className='btn'>Github</a>
             <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>

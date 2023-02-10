@@ -16,28 +16,35 @@ const Experience = () => {
                   <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
                   <div> 
                     <h4>HTML</h4>
-                    <small className='text-light'>Experienced</small>
+                    <small className='text-light'>Intermediate</small>
                   </div>
                 </article> 
                 <article className='experience__details'>
                   <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
                   <div>
                     <h4>CSS</h4>
-                    <small className='text-light'>Experienced</small>
+                    <small className='text-light'>Intermediate</small>
                   </div>
                 </article> 
                 <article className='experience__details'>
                   <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
                   <div>                   
                     <h4>Javascript</h4>
-                    <small className='text-light'>Experienced</small>
+                    <small className='text-light'>Intermediate</small>
                   </div>
                 </article> 
                 <article className='experience__details'>
                   <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
                   <div>
-                    <h4>React</h4>
+                    <h4>XML</h4>
                     <small className='text-light'>Experienced</small>
+                  </div>
+                </article>
+                <article className='experience__details'>
+                  <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
+                  <div>
+                    <h4>React</h4>
+                    <small className='text-light'>Intermediate</small>
                   </div>
                 </article> 
             </div>
@@ -45,7 +52,7 @@ const Experience = () => {
         <div className='experience__backend'>
         <h3>Back-End Development</h3>
         <div className='experience__content'>
-        <article className='experience__details'>
+                <article className='experience__details'>
                   <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
                   <div> 
                     <h4>C++ / C</h4>
@@ -56,7 +63,7 @@ const Experience = () => {
                   <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
                   <div>
                     <h4>Java</h4>
-                    <small className='text-light'>Experienced</small>
+                    <small className='text-light'>Intermediate</small>
                   </div>
                 </article> 
                 <article className='experience__details'>
@@ -73,6 +80,20 @@ const Experience = () => {
                     <small className='text-light'>Experienced</small>
                   </div>
                 </article> 
+                <article className='experience__details'>
+                  <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
+                  <div>
+                    <h4>Flask</h4>
+                    <small className='text-light'>Experienced</small>
+                  </div>
+                </article>
+                <article className='experience__details'>
+                  <img className='verified_icon' src={VERIFIED_ICON} alt='icon'></img>
+                  <div>
+                    <h4>MATLAB</h4>
+                    <small className='text-light'>Intermediate</small>
+                  </div>
+                </article>
         </div>
         </div>
       </div>

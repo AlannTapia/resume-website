@@ -1,14 +1,14 @@
 import React from 'react'
 import './Footer.css'
-import GIT from '../../assets/icons8-github-51.png'
-import Linked from '../../assets/icons8-linkedin-51.png'
-import Twitter from '../../assets/icons8-twitter-511.png'
-import Insta from '../../assets/icons8-instagram-51.png'
+import GIT from '../../assets/black-icon-github.png'
+import Linked from '../../assets/black-icon-linkedin.png'
+import Twitter from '../../assets/black-icon-twitter.png'
+import Insta from '../../assets/black-icon-instagram.png'
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#home' className='footer__logo'>EGATOR</a>
+      <a href='#home' className='footer__logo'>Alann Tapia</a>
 
       <ul className='permalinks'>
         <li><a href='#home'>Home</a></li>
@@ -26,7 +26,8 @@ const Footer = () => {
       
 
       <div className='footer__copyright'>
-        <small>&copy; All rights reserved. | Tutorial of Website: <a href='https://www.youtube.com/watch?v=G-Cr00UYokU&t=8437s&ab_channel=EGATOR'>HERE</a></small>
+        <small>&copy; All rights reserved. | Tutorial of Website: <a href='https://www.youtube.com/watch?v=G-Cr00UYokU&t=8437s&ab_channel=EGATOR'>HERE</a> | Icons Used: 
+        <a href='https://icons8.com/'> HERE</a></small>
       </div>
     </footer>
   )

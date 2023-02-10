@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/alann-3.jpg'
 import MEDAL_ICON from '../../assets/medal-icon.png'
 import USER_ICON from '../../assets/icon-users.png'
 import PROJECTS_ICON from '../../assets/icon-projects.png'
@@ -23,26 +23,26 @@ const About = () => {
             <article className='about__card'>
               <img className='icon_about' src={MEDAL_ICON} alt='medal'></img>
               <h5> Experience</h5>
-              <small>3+ Years Working</small>
+              <small>0-2 Years</small>
             </article>
 
             <article className='about__card'>
               <img className='icon_about' src={USER_ICON} alt='medal'></img>
-              <h5> Clients</h5>
-              <small>1+ Worldwide</small>
+              <h5> Network</h5>
+              <small>20+ Worldwide</small>
             </article>
 
             <article className='about__card'>
               <img className='icon_about' src={PROJECTS_ICON} alt='medal'></img>
               <h5> Projects</h5>
-              <small>10+ Completed</small>
+              <small>6+ Completed</small>
             </article>
           </div>
           <p>
-          The sun was shining brightly as Jane stepped outside her house and breathed in the fresh air. 
-          She decided to go for a walk in the park to clear her mind and enjoy the beautiful weather. 
-          Along the way, she saw several children playing on the swings and heard their laughter and cheers, 
-          which brought a smile to her face. She continued walking, taking in her surroundings and feeling grateful 
+          I recently graduated with a degree in Computer Science and Engineering from UCM in December 2022 and I'm absolutely thrilled to launch my career. 
+          I'm passionate about coding and robotics, and I'm looking forward to working with the latest technology and creating 
+          unique solutions to difficult problems. I'm sure that with my skill set and experience, I'm capable of making a significant 
+          contribution to the software engineering sector. I'm ready to get started and make an impact!
           for the simple pleasures in life.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
