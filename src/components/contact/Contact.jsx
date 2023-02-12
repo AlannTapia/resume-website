@@ -23,13 +23,13 @@ const Contact = () => {
             <img src={Twit} className='icon__contacts' alt='email icon'></img>
             <h4>Twitter DM's: </h4>
             <h5>AlannTapia</h5>
-            <a href='https://twitter.com' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='https://twitter.com/AlannDTapia' target="_blank" rel="noreferrer">Send a message</a>
           </article>        
           <article className='contact__option'>
             <img src={Insta} className='icon__contacts' alt='email icon'></img>
             <h4>Instagram DM's:</h4>
             <h5>AlannTapia</h5>
-            <a href='mailto:dummyegator@gmail.com' target="_blank" rel="noreferrer">Send a message</a>
+            <a href='https://www.instagram.com/alanndtapia/' target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         

@@ -9,22 +9,22 @@ const HeaderSocials = () => {
   return (
     <div className='hs-container'>
       <div className='hs'>
-        <a href='https://github.com' target="_blank" rel="noreferrer">
+        <a href='https://github.com/AlannTapia' target="_blank" rel="noreferrer">
           <img src={GIT} alt = 'Hi' />
         </a>
       </div>
       <div className='hs'>
-        <a href='https://linkedin.com' target="_blank" rel="noreferrer">
+        <a href='https://www.linkedin.com/in/alanntapia/' target="_blank" rel="noreferrer">
           <img src={Linked} alt = 'Hi'/>
         </a>
       </div>
       <div className='hs'>
-        <a href='https://twitter.com' target="_blank" rel="noreferrer">
+        <a href='https://twitter.com/AlannDTapia' target="_blank" rel="noreferrer">
           <img src={Twitter}alt = 'Hi' />
         </a>
       </div>
       <div className='hs'>
-        <a href='https://instagram.com' target="_blank" rel="noreferrer">
+        <a href='https://www.instagram.com/alanndtapia/' target="_blank" rel="noreferrer">
           <img src={Insta} alt = 'Hi' />
         </a>
       </div>

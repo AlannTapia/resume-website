@@ -19,10 +19,10 @@ const Footer = () => {
       </ul>
 
       
-        <a href='https://github.com'> <img src={GIT} className='footer__icons' alt='github'></img></a>
-        <a href='https://linkedin.com'> <img src={Linked} className='footer__icons' alt='linked'></img></a>
-        <a href='https://twitter.com'> <img src={Twitter} className='footer__icons' alt='twitter'></img></a>
-        <a href='https://instagram.com'> <img src={Insta} className='footer__icons' alt='insta'></img></a>
+        <a href='https://github.com/AlannTapia'> <img src={GIT} className='footer__icons' alt='github'></img></a>
+        <a href='https://www.linkedin.com/in/alanntapia/'> <img src={Linked} className='footer__icons' alt='linked'></img></a>
+        <a href='https://twitter.com/AlannDTapia'> <img src={Twitter} className='footer__icons' alt='twitter'></img></a>
+        <a href='https://www.instagram.com/alanndtapia/'> <img src={Insta} className='footer__icons' alt='insta'></img></a>
       
 
       <div className='footer__copyright'>
