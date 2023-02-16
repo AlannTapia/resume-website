@@ -20,8 +20,8 @@ const Portfolio = () => {
           </div>
           <h3>"Stud Bud" Hackathon Web Application</h3>
           <div className='portfolio__item-cta'>
-            <a href='https:github.com' className='btn'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            <a href='https://github.com/AlannTapia' className='btn'>Github</a>
+            <a href='https://hackmerced-vii.devpost.com/' className='btn btn-primary' target="_blank" rel="noreferrer">Devpost</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -30,8 +30,8 @@ const Portfolio = () => {
           </div>
           <h3>Tree Detection Web Application</h3>
           <div className='portfolio__item-cta'>
-            <a href='https:github.com' className='btn'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            <a href='https://github.com/atapia209/Tree_Project_Group307' className='btn'>Github</a>
+            <a href='https://innovatetogrow.ucmerced.edu/' className='btn btn-primary' target="_blank" rel="noreferrer">Innovate2Grow</a>
           </div>
         </article><article className='portfolio__item'>
           <div className='portfolio__item-image'>
@@ -39,8 +39,8 @@ const Portfolio = () => {
           </div>
           <h3>Android Tree Database Application</h3>
           <div className='portfolio__item-cta'>
-            <a href='https:github.com' className='btn'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            <a href='https://github.com/atapia209/CSE111_Project' className='btn'>Github</a>
+            <a href='https://github.com/atapia209/CSE111_Project' className='btn btn-primary' target="_blank" rel="noreferrer">Download</a>
           </div>
         </article><article className='portfolio__item'>
           <div className='portfolio__item-image'>
@@ -48,8 +48,8 @@ const Portfolio = () => {
           </div>
           <h3>Robotic Hand and Eye Mechanism</h3>
           <div className='portfolio__item-cta'>
-            <a href='https:github.com' className='btn'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            {/* <a href='https:github.com' className='btn'>Github</a>
+            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a> */}
           </div>
         </article><article className='portfolio__item'>
           <div className='portfolio__item-image'>
@@ -57,8 +57,8 @@ const Portfolio = () => {
           </div>
           <h3>React Website Portfolio</h3>
           <div className='portfolio__item-cta'>
-            <a href='https:github.com' className='btn'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            <a href='https://github.com/AlannTapia/resume-website' className='btn'>Github</a>
+            <a href='#home' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
           </div>
         </article><article className='portfolio__item'>
           <div className='portfolio__item-image'>
@@ -66,8 +66,8 @@ const Portfolio = () => {
           </div>
           <h3>Currently: React Inventory Website</h3>
           <div className='portfolio__item-cta'>
-            <a href='https:github.com' className='btn'>Github</a>
-            <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            <a href='https://github.com/AlannTapia' className='btn'>Github</a>
+            {/* <a href='https://dribbble.com/Alien_pixels' className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a> */}
           </div>
         </article>
     

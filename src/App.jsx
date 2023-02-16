@@ -1,4 +1,5 @@
 import React from 'react'
+import SmoothScroll from 'smooth-scroll'
 
 import About from './components/about/About.jsx'
 import Contact from './components/contact/Contact.jsx'
@@ -15,6 +16,9 @@ import Blog from './components/blog/Blog'
 */
 
 const App = () => {
+
+  React.useEffect(() => { new SmoothScroll('a[href*="#"]', {speed: 800}); }, []);
+    
   return (
     <>
     <Header />
